@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		4A6515B42F9D593000636DE9 /* MindSweep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindSweep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6515B42F9D593000636DE9 /* MindSweep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MindSweep.app; path = "/Users/samro/Desktop/MindSweep/MindSweep/build/Debug-iphoneos/MindSweep.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				4A6515B62F9D593000636DE9 /* MindSweep */,
-				4A6515B52F9D593000636DE9 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		4A6515B52F9D593000636DE9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4A6515B42F9D593000636DE9 /* MindSweep.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +86,7 @@
 			mainGroup = 4A6515AB2F9D593000636DE9;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 4A6515B52F9D593000636DE9 /* Products */;
+			productRefGroup = 4A6515AB2F9D593000636DE9;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

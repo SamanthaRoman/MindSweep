@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct MindSweepApp: App {
+    @StateObject private var store = ThoughtStore()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(store)
         }
     }
 }
